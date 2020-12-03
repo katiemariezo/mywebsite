@@ -1,0 +1,17 @@
+name: "Kaitlyn Gilliam"
+output_dir: "docs"
+navbar:
+  title: "Nanopore Technologies"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "EvoGenLab"
+      href: evogenlab.html
+output:
+prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+include: 
+after_body: my_footer.Rhtml
